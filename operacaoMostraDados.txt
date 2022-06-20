@@ -1,0 +1,14 @@
+operação mostraDados() // mostra os dados da conta
+início
+	imprime "O nome do correntista é ";
+	imprime nomeDoCorrentista;
+	imprime "O saldo é ";
+	imprime saldo;
+	se (contaÉEspecial)
+		imprime "A conta é especial.";
+		se (saldo < 0)
+			imprime "Saldo negativo!";
+	senão
+		imprime "A conta é comum.";
+fim
+fim do modelo
